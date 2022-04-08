@@ -1,0 +1,45 @@
+h3 {
+  color: red;
+  text-align: center;
+}
+
+h4 {
+  color: rgb(14, 136, 212);
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 300px;
+  width: 350px;
+  margin: 20px;
+  padding: 25px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
